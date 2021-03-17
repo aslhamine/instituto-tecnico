@@ -1,0 +1,57 @@
+
+.header{
+    padding: 20px 0;
+    position: relative;
+}
+.banner-topo{
+    background: #ea2340;
+}
+.banner-topo .img-destaque{
+    max-width: 300px;
+}
+.banner-topo h1{
+    color: #f5eee6;
+}
+h1, h2, h4{
+    text-align: center;
+}
+p{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+h4{
+    color: #333;
+}
+.nav-link{
+    color:  #333;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: auto 1rem;
+}
+.nav-link:hover{
+    color: #ea2340;
+}
+.whatsapp{
+
+    margin-left: 0rem;
+}
+
+.btn-color{
+    background: #fadfde;
+}
+.cor-tema{
+    color: #202a65
+}
+
+#img-info{
+    width: 150px;
+}
+.about{
+    color: #fff;
+    background: #111;
+}
+.footer{
+    color: #fff;
+    background: #000;
+}

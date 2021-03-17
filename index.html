@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <style>
+      p{
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <header class=" header shadow-lg fixed">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-4">
+                    <img src="img/logo.png" alt="Logotipo">
+                </div>
+                <div class="col-8">
+                      <nav class="navbar navbar-light  d-block d-lg-none">
+                        <div class="container-fluid justify-content-end">
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile" >
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        </div>
+                      </nav>
+
+
+                    <nav class="nav justify-content-end d-none d-lg-inline-flex">
+                            <a href="#" class="nav-link">Home</a>
+                            <a href="#courses" class="nav-link">Cursos</a>
+                            <a href="#about" class="nav-link">Quem somos!</a>
+                            <a href="#footer" class="nav-link">Contactos</a>
+                            <a href="#" class="btn rounded-pill btn-color whatsapp"><span>+258 </span>84 23 042 73</a>
+                    </nav>
+                </div>
+                <div class="col-12">
+                    <div class="collapse" id="menuMobile">
+                    <nav class="nav flex-column justify-content-end">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="#courses" class="nav-link">Cursos</a>
+                        <a href="#about" class="nav-link">Quem somos!</a>
+                        <a href="#footer" class="nav-link">Contactos</a>
+                        <a href="#" class="btn rounded-pill btn-color"><span>+258 </span>84 23 042 73</a>
+                    </nav>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner-topo">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 order-sm-1" id="img-destaque">
+                <img src="img/student.png" class="img-destaque d-block mx-auto mt-3" alt="Imagem de Estudante">
+            </div>
+            <div class="col-12 col-sm-6 order-sm-2 align-self-center p-5">
+                <h1>Amilton Lhamine</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quae quibusdam, aliquam totam cupiditate odio, quam nihil rerum magnam quas inventore, reprehenderit fugiat officiis tempore quia et. Ex, vero accusantium!</p>
+    
+            </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section class="destaque mt-5" id="about">
+        <div class="container">
+            <div class="row pt-3" style="display: flex;">
+                <div class="col-6 col-md-3 text-center">
+                    <img src="img/valor.png" width="150px"  alt="destaque1" class="d-block mx-auto">
+                    <h4 class="cor-tema mt-3">Valores</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="img/missao.png" width="150px" alt="destaque1" class="d-block mx-auto">
+                    <h4 class="cor-tema mt-3">Missão</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="img/valor.png" width="150px" alt="destaque1" class="d-block mx-auto">
+                    <h4 class="cor-tema mt-3">Ideais</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-6 col-md-3 text-center">
+                    <img src="img/missao.png" width="150px" alt="destaque1" class="d-block mx-auto">
+                    <h4 class="cor-tema mt-3">Visão</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12 col-md-7 align-self-center p-5">
+                    <h1>Destaque</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias soluta, perferendis harum a rem aperiam assumenda obcaecati nisi distinctio nemo autem numquam dolore tempore hic quo praesentium doloribus esse!.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet enim blanditiis optio ducimus consequuntur molestiae ab sed nostrum aliquam, impedit quidem dicta rerum mollitia natus fuga temporibus, tempora nobis aut.</p>
+                </div>
+                <div class="col-12 col-md-5">
+                    <img src="img/students.png" width="400px" alt="estudantes" class="d-block mx-auto pt-5 " >
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container mt-5" id="courses">
+            <div class="row p-3">
+                <div class="col-12 col-sm-4 mt-3">
+                    <div class="card">
+                        <img src="img/redes.jpg" class="card-img-top" alt="google analytics">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Saiba mais!</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-4 mt-3">
+                    <div class="card">
+                        <img src="img/software.jpg" class="card-img-top" alt="google analytics">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Saiba mais!</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-sm-4 mt-3">
+                    <div class="card">
+                        <img src="img/redes.jpg" class="card-img-top" alt="google analytics">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Saiba mais!</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="costumers">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mt-5">
+                    <h4>Conheça os</h4>
+                    <h2>nossos parceiros</h2>
+                </div>
+            </div>
+
+                <div id="slide" class="carousel carousel-dark carousel slide " data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#slide" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#slide" data-bs-slide-to="1"></li>
+                
+                    </ol>
+                
+                
+                    <div class="carousel-inner mt-3">
+                        <div class="carousel-item active ">
+                           <div class="row">
+                               <div class="col-6 col-sm-3">
+                                <img class="d-block w-100" src="img/cliente.png" alt="teste">
+                               </div>
+                               <div class="col-6 col-sm-3">
+                                <img class="d-block w-100" src="img/cliente.png" alt="teste">
+                               </div>
+                               <div class="col-6 col-sm-3">
+                                <img class="d-block w-100" src="img/cliente.png" alt="teste">
+                               </div>
+                               <div class="col-6 col-sm-3">
+                                <img class="d-block w-100" src="img/cliente.png" alt="teste">
+                               </div>
+                           </div>
+                        
+                        </div>
+
+                        <div class="carousel-item ">
+                            <div class="row">
+                                <div class="col-6 col-sm-3">
+                                 <img class="d-block w-100" src="img/cliente.png" alt="teste">
+                                </div>
+                                <div class="col-6 col-sm-3">
+                                 <img class="d-block w-100" src="img/cliente.png" alt="teste">
+                                </div>
+                                <div class="col-6 col-sm-3">
+                                 <img class="d-block w-100" src="img/cliente.png" alt="teste">
+                                </div>
+                                <div class="col-6 col-sm-3">
+                                 <img class="d-block w-100" src="img/cliente.png" alt="teste">
+                                </div>
+ 
+                            </div>
+                         
+                         </div>
+                        
+                    </div>
+                </div>
+        </div>
+
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-sm-3 mt-5 mb-5">
+                    <h4>Endereço</h4>
+                    <address>
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#" tabindex="-1" >Disabled</a>
+                            </li>
+                          </ul>
+                    </address>
+                </div>
+
+                <div class="col-12 col-sm-3 mt-5 mb-5">
+                    <h4>Endereço</h4>
+                    <address>
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#" tabindex="-1" >Disabled</a>
+                            </li>
+                          </ul>
+                    </address>
+                </div>
+
+                <div class="col-12 col-sm-3 mt-5 mb-5">
+                    <h4>Endereço</h4>
+                    <address>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#" tabindex="-1" >Disabled</a>
+                            </li>
+                          </ul>
+                    </address>
+                </div>
+
+                <div class="col-12 col-sm-3 mt-5 mb-5">
+                    <h4>Endereço</h4>
+                    <address>
+                        <ul class="nav">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Active</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#" tabindex="-1" >Disabled</a>
+                            </li>
+                          </ul>
+                    </address>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>
